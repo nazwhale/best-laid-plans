@@ -26,7 +26,7 @@ class IndexPage extends React.Component {
         {data.map(chunk => {
           return (
             <p>
-              {chunk.year} {chunk.season} • aged {chunk.age} • {chunk.what} •{" "}
+              {chunk.year} {chunk.season} Aged {chunk.age} • {chunk.what} •{" "}
               {chunk.where}
             </p>
           )
